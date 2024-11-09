@@ -8,7 +8,6 @@ function initializeGallery() {
     addTabFocus();
 }
 
-
 function addTabFocus() {
     const images = document.getElementsByClassName("preview");
 
