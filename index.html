@@ -8,21 +8,20 @@
     <script src="gallery.js"></script>
 </head>
 
-<body>
+<body onload="initializeGallery()">
 
     <div id="image">
         Hover over an image below to display here.
     </div>
 
-    <!-- Car Thumbnails -->
-    <img class="preview" alt="agadir beach" src="img_beach/agadir_beach.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
-    <img class="preview" alt="dubai_beach" src="img_beach/dubai_beach.jpeg" onmouseover="upDate(this)" onmouseout="unDo()">
-    <img class="preview" alt="miami_beach" src="img_beach/miami_beach.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
-    <img class="preview" alt="navarre_beach" src="img_beach/navarre_beach.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
-    <img class="preview" alt="taghazout_beach" src="img_beach/taghazout_beach.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
-    <img class="preview" alt="tanger_beach" src="img_beach/tanger_beach.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
-   
+    <!-- Car Thumbnails with onmouseover, onmouseout, onfocus, and onblur events -->
+    <img class="preview" alt="agadir beach" src="img_beach/agadir_beach.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    <img class="preview" alt="dubai beach" src="img_beach/dubai_beach.jpeg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    <img class="preview" alt="miami beach" src="img_beach/miami_beach.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    <img class="preview" alt="navarre beach" src="img_beach/navarre_beach.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    <img class="preview" alt="taghazout beach" src="img_beach/taghazout_beach.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    <img class="preview" alt="tanger beach" src="img_beach/tanger_beach.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
     
 </body>
+
 </html>
-<!-- hjhqjkfd -->
